@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="2" name="TestSuite" time="18.916" errors="0" skipped="5">
+<testsuite tests="7" failures="0" name="TestSuite" time="44.099" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\java\javjdk\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12"/>
     <property name="java.endorsed.dirs" value="C:\java\javjdk\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter3586511786206359764.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter5473705347939707255.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\百场汇\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -28,7 +28,7 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\java\javjdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\OpenVPN\bin;C:\java\javjdkbin;C:\MySql\bin;C:\java\javjdk\jre\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\百场汇\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\java\javjdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\OpenVPN\bin;C:\java\javjdkbin;C:\MySql\bin;C:\java\javjdk\jre\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\百场汇\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="surefire.test.class.path" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\test-classes;C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\classes;C:\repository_ssh\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;C:\repository_ssh\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\repository_ssh\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\repository_ssh\org\json\json\20170516\json-20170516.jar;C:\repository_ssh\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;C:\repository_ssh\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\repository_ssh\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;C:\repository_ssh\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\repository_ssh\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\repository_ssh\org\xerial\sqlite-jdbc\3.15.1\sqlite-jdbc-3.15.1.jar;C:\repository_ssh\org\freemarker\freemarker\2.3.26-incubating\freemarker-2.3.26-incubating.jar;C:\repository_ssh\org\mongodb\mongodb-driver\3.4.2\mongodb-driver-3.4.2.jar;C:\repository_ssh\org\mongodb\bson\3.4.2\bson-3.4.2.jar;C:\repository_ssh\org\mongodb\mongodb-driver-core\3.4.2\mongodb-driver-core-3.4.2.jar;C:\repository_ssh\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;C:\repository_ssh\com\google\guava\guava\20.0\guava-20.0.jar;C:\repository_ssh\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\repository_ssh\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\repository_ssh\org\testng\testng\6.10\testng-6.10.jar;C:\repository_ssh\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\repository_ssh\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\repository_ssh\org\springframework\boot\spring-boot-starter-web\1.5.3.RELEASE\spring-boot-starter-web-1.5.3.RELEASE.jar;C:\repository_ssh\org\springframework\boot\spring-boot-starter\1.5.3.RELEASE\spring-boot-starter-1.5.3.RELEASE.jar;C:\repository_ssh\org\springframework\boot\spring-boot\1.5.3.RELEASE\spring-boot-1.5.3.RELEASE.jar;C:\repository_ssh\org\springframework\boot\spring-boot-autoconfigure\1.5.3.RELEASE\spring-boot-autoconfigure-1.5.3.RELEASE.jar;C:\repository_ssh\org\springframework\boot\spring-boot-starter-logging\1.5.3.RELEASE\spring-boot-starter-logging-1.5.3.RELEASE.jar;C:\repository_ssh\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\repository_ssh\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\repository_ssh\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\repository_ssh\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\repository_ssh\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\repository_ssh\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar;C:\repository_ssh\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\repository_ssh\org\springframework\boot\spring-boot-starter-tomcat\1.5.3.RELEASE\spring-boot-starter-tomcat-1.5.3.RELEASE.jar;C:\repository_ssh\org\apache\tomcat\embed\tomcat-embed-core\8.5.14\tomcat-embed-core-8.5.14.jar;C:\repository_ssh\org\apache\tomcat\embed\tomcat-embed-el\8.5.14\tomcat-embed-el-8.5.14.jar;C:\repository_ssh\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.14\tomcat-embed-websocket-8.5.14.jar;C:\repository_ssh\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\repository_ssh\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\repository_ssh\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\repository_ssh\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\repository_ssh\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\repository_ssh\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\repository_ssh\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar;C:\repository_ssh\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar;C:\repository_ssh\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar;C:\repository_ssh\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar;C:\repository_ssh\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar;C:\repository_ssh\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar;C:\repository_ssh\io\springfox\springfox-swagger2\2.6.1\springfox-swagger2-2.6.1.jar;C:\repository_ssh\io\swagger\swagger-annotations\1.5.10\swagger-annotations-1.5.10.jar;C:\repository_ssh\io\swagger\swagger-models\1.5.10\swagger-models-1.5.10.jar;C:\repository_ssh\io\springfox\springfox-spi\2.6.1\springfox-spi-2.6.1.jar;C:\repository_ssh\io\springfox\springfox-core\2.6.1\springfox-core-2.6.1.jar;C:\repository_ssh\io\springfox\springfox-schema\2.6.1\springfox-schema-2.6.1.jar;C:\repository_ssh\io\springfox\springfox-swagger-common\2.6.1\springfox-swagger-common-2.6.1.jar;C:\repository_ssh\io\springfox\springfox-spring-web\2.6.1\springfox-spring-web-2.6.1.jar;C:\repository_ssh\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\repository_ssh\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\repository_ssh\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\repository_ssh\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\repository_ssh\org\mapstruct\mapstruct\1.0.0.Final\mapstruct-1.0.0.Final.jar;C:\repository_ssh\io\springfox\springfox-swagger-ui\2.6.1\springfox-swagger-ui-2.6.1.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\java\javjdk\jre"/>
-    <property name="sun.java.command" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter3586511786206359764.jar C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire2230740980780004474tmp C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire1042526744184504287tmp"/>
+    <property name="sun.java.command" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter5473705347939707255.jar C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire4853809102030136266tmp C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire1027669692663408018tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,118 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="7.94">
-    <failure message="Connection to http://localhost:8850 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8850 refused
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
-	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
-	at com.course.cases.LoginTest.loginTrue(LoginTest.java:41)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
-	... 43 more
-</failure>
-    <system-out>@HL
-@HL-------------------------------------------------------
-@HL T E S T S
-@HL-------------------------------------------------------
-@SLRunning TestSuite
-17:45:49.001 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
-17:45:50.060 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:50.060 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:50.060 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:50.060 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:50.804 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
-17:45:52.045 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 386163331.
-17:45:52.051 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@17046283]
-17:45:52.058 [main] DEBUG com.course.model.loginCase - ==&gt;  Preparing: select * from loginCase where id=?; 
-17:45:52.426 [main] DEBUG com.course.model.loginCase - ==&gt; Parameters: 1(Integer)
-17:45:52.512 [main] DEBUG com.course.model.loginCase - &lt;==      Total: 1
-LoginCase(id=1, userName=zhangsan, password=123456, expected=true)
-http://localhost:8850/v1/login
-17:45:54.327 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://localhost:8850]
-17:45:54.342 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8850
-17:45:55.425 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connect to localhost:8850 timed out. Connection will be retried using another IP address
-17:45:55.425 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8850
-17:45:56.428 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection closed
-17:45:56.429 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection shut down
-17:45:56.429 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@3e96bacf
-</system-out>
-  </testcase>
-  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="2.158">
-    <failure message="Connection to http://localhost:8850 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8850 refused
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
-	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
-	at com.course.cases.LoginTest.loginFalse(LoginTest.java:55)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
-	... 43 more
-</failure>
-    <system-out>17:45:56.488 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:56.489 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:56.489 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:56.489 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:56.526 [Finalizer] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-17:45:56.571 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
-17:45:56.601 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1970982267.
-17:45:56.601 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@757acd7b]
-17:45:56.602 [main] DEBUG com.course.model.loginCase - ==&gt;  Preparing: select * from loginCase where id=?; 
-17:45:56.603 [main] DEBUG com.course.model.loginCase - ==&gt; Parameters: 2(Integer)
-17:45:56.605 [main] DEBUG com.course.model.loginCase - &lt;==      Total: 1
-LoginCase(id=2, userName=zhangsanerror, password=123, expected=false)
-http://localhost:8850/v1/login
-17:45:56.605 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://localhost:8850]
-17:45:56.606 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8850
-17:45:57.608 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connect to localhost:8850 timed out. Connection will be retried using another IP address
-17:45:57.608 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8850
-17:45:58.610 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection closed
-17:45:58.610 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection shut down
-17:45:58.610 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@574b560f
-</system-out>
-  </testcase>
-  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="2.163">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="2.164">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="2.164">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="2.164">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="2.164">
-    <skipped/>
-  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="10.585"/>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0.361"/>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="5.25"/>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="0.299"/>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="11.372"/>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="11.279"/>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="0.15"/>
 </testsuite>

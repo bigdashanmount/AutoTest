@@ -1,5 +1,5 @@
 #surefire
-#Fri Jul 20 17:45:40 CST 2018
+#Mon Jul 23 15:08:00 CST 2018
 classPathUrl.61=C\:\\repository_ssh\\org\\springframework\\plugin\\spring-plugin-core\\1.2.0.RELEASE\\spring-plugin-core-1.2.0.RELEASE.jar
 classPathUrl.60=C\:\\repository_ssh\\org\\slf4j\\slf4j-api\\1.7.25\\slf4j-api-1.7.25.jar
 useSystemClassLoader=true
