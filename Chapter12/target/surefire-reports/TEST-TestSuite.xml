@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="TestSuite" time="44.099" errors="0" skipped="0">
+<testsuite tests="7" failures="2" name="TestSuite" time="10.951" errors="0" skipped="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\java\javjdk\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12"/>
     <property name="java.endorsed.dirs" value="C:\java\javjdk\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter5473705347939707255.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter8351762049392347905.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\百场汇\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\java\javjdk\jre"/>
-    <property name="sun.java.command" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter5473705347939707255.jar C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire4853809102030136266tmp C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire1027669692663408018tmp"/>
+    <property name="sun.java.command" value="C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter8351762049392347905.jar C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire3282242035381446741tmp C:\Users\百场汇\.ssh\workspace\muke\AutoTest\Chapter12\target\surefire\surefire5454959693656088117tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,11 +61,117 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="10.585"/>
-  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0.361"/>
-  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="5.25"/>
-  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="0.299"/>
-  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="11.372"/>
-  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="11.279"/>
-  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="0.15"/>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="4.706">
+    <failure message="Connection to http://localhost:8888 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8888 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginTrue(LoginTest.java:41)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 43 more
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+16:24:03.600 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+16:24:03.875 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:03.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:03.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:03.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:04.124 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+16:24:04.714 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 386163331.
+16:24:04.715 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@17046283]
+16:24:04.724 [main] DEBUG com.course.model.loginCase - ==&gt;  Preparing: select * from loginCase where id=?; 
+16:24:04.826 [main] DEBUG com.course.model.loginCase - ==&gt; Parameters: 1(Integer)
+16:24:04.891 [main] DEBUG com.course.model.loginCase - &lt;==      Total: 1
+LoginCase(id=1, userName=zhangsan, password=123456, expected=true)
+http://localhost:8888/v1/login
+16:24:06.173 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://localhost:8888]
+16:24:06.187 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8888
+16:24:07.194 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connect to localhost:8888 timed out. Connection will be retried using another IP address
+16:24:07.194 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8888
+16:24:08.197 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection closed
+16:24:08.198 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection shut down
+16:24:08.198 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@3e96bacf
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="2.182">
+    <failure message="Connection to http://localhost:8888 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8888 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginFalse(LoginTest.java:55)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 43 more
+</failure>
+    <system-out>16:24:08.269 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:08.269 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:08.269 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:08.269 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:24:08.343 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+16:24:08.388 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1970982267.
+16:24:08.388 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@757acd7b]
+16:24:08.391 [main] DEBUG com.course.model.loginCase - ==&gt;  Preparing: select * from loginCase where id=?; 
+16:24:08.392 [main] DEBUG com.course.model.loginCase - ==&gt; Parameters: 2(Integer)
+16:24:08.395 [main] DEBUG com.course.model.loginCase - &lt;==      Total: 1
+LoginCase(id=2, userName=zhangsanerror, password=123, expected=false)
+http://localhost:8888/v1/login
+16:24:08.396 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://localhost:8888]
+16:24:08.396 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8888
+16:24:09.400 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connect to localhost:8888 timed out. Connection will be retried using another IP address
+16:24:09.400 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8888
+16:24:10.404 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection closed
+16:24:10.405 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection shut down
+16:24:10.405 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@574b560f
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="2.189">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="2.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="2.192">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="2.194">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="2.194">
+    <skipped/>
+  </testcase>
 </testsuite>
