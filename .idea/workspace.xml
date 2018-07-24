@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6022da6f-9fad-43f9-ae90-6793011330da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/Chapter12-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.AddUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.AddUserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.GetUserInfoListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.GetUserInfoListTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.GetUserInfoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.GetUserInfoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.UpdateUserInfoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/junitreports/TEST-com.course.cases.UpdateUserInfoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/old/用户管理系统测试套件/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/用户管理系统测试套件/用户管理系统测试用例.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/用户管理系统测试套件/用户管理系统测试用例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire-reports/用户管理系统测试套件/用户管理系统测试用例.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/surefire-reports/用户管理系统测试套件/用户管理系统测试用例.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire/surefire1027669692663408018tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/surefire/surefire4853809102030136266tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
     </list>
@@ -47,56 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/application.yml">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddUserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/AddUserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetUserListCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/GetUserListCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetUserInfoListTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/GetUserInfoListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="253">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -191,7 +123,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1935" />
     <option name="y" value="130" />
     <option name="width" value="1936" />
@@ -563,7 +495,7 @@
       <workItem from="1532226550257" duration="676000" />
       <workItem from="1532329251993" duration="1332000" />
       <workItem from="1532419902488" duration="1646000" />
-      <workItem from="1532431302511" duration="1640000" />
+      <workItem from="1532431302511" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter5完结">
       <created>1531575763158</created>
@@ -590,12 +522,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.20 at 16h 53m 33s.xml">
-      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.20 at 16h 56m 05s.xml">
-      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.21 at 15h 08m 55s.xml">
       <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -620,12 +546,19 @@
     <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.24 at 19h 44m 17s.xml">
       <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.24 at 19h 49m 49s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_AutoTest_Chapter12_src_main_resources_testng_xml - 2018.07.24 at 19h 51m 28s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160758000" />
+    <option name="totallyTimeSpent" value="161588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021962" side_tool="true" weight="0.32961783" />
@@ -645,7 +578,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49926794" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978038" visible="true" weight="0.39811322" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978038" weight="0.39811322" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32838982" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21886793" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18489583" />
@@ -995,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1011,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/AddUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="196">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
@@ -1023,6 +949,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/GetUserInfoListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1030,17 +963,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/GetUserInfoListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
         </state>
       </provider>
     </entry>
