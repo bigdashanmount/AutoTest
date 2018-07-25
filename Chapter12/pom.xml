@@ -92,7 +92,7 @@
                 </properties>
                 <reportsDirectory>target/surefire-reports</reportsDirectory>
 
-                
+
             </configuration>
         </plugin>
     </plugins>
